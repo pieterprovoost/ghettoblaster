@@ -1,0 +1,23 @@
+Package: ghettoblaster
+Title: NCBI BLAST web client
+Version: 0.0.1
+Authors@R: c(
+    person("Pieter", "Provoost", , "pieterprovoost@gmail.com", c("cre", "aut"))
+  )
+Description: NCBI BLAST web client.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+  httr2,
+  dplyr,
+  stringr,
+  glue,
+  brio,
+  xml2,
+  purrr,
+  worrms,
+  future,
+  furrr,
+  tidyr
